@@ -1,0 +1,193 @@
+<!--Looks like you're ready to get making with Pitt Fuego Webtext Generator. Good luck. Let's remember a few basic things:
+
+1. If you haven't worked through one of our Pitt Fuego introductory tools (Electrate Fuego or I Am...A Project in Becoming), please do so. They will give you the basic skills to use this webtext generator.
+2. Pay attention to file management - keep your asset names simple and one word.
+3. Make sure your assets names/file type match your code.
+4. Describe all images and clearly label links and buttons for accessibility  purposes.
+5. Consult W3 when our code is not working or you need it to do something more.
+6. Control Z, Control Z, Control Z...
+7. Publish, share, spread the Fuego!-->
+
+<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pitt Fuego</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body onload="username()">
+<!--To adjust hero image and text, find hero-image class on style.css-->
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>Oneiroxchange</h1>
+  </div>
+</div>
+
+<!--To build your webtext, copy the code snippet (provided below) and paste into the <body> section below this line.-->
+
+
+  <div class="container">
+    <img src="friend.jpg" alt="Avatar">
+    <p id="f1">Hello. How are you today?</p>
+    <span class="time-right">11:00</span>
+  </div>
+
+  <div class="container darker">
+    <img src="pitt.png" alt="Avatar" class="right">
+    <p id="f1">Hey! I'm fine. Thanks for asking!</p>
+    <span class="time-left">11:01</span>
+  </div>
+
+<div class="buttonbox">
+  <input class=button type = "button" id="colorButton" value="【﻿ｂｅｇｉｎ】" onclick="setFirst()">
+</div>
+
+<script src="scripts.js"></script>
+  </body>
+     </html>
+
+
+
+
+     <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
+
+
+     ***Add Text Block***
+
+     (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <em>italics</em>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>)
+
+     (use <h3> header and <p> for longer content)
+
+     <div class="textblock" style="text-align: left">
+         <h2>Header</h2>
+         <h3>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+     </div>
+
+
+
+     ***Add Block Quote***
+
+     (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+     <div class="blockquote" style="text-align: center">
+         <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+     </div>
+
+
+
+     ***Add Bulleted Points to Textblock***
+
+     (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+     <div class= "ul">
+             <li>first</li>
+             <li>second</li>
+             <li>third</li>
+     </div>
+
+     -or- (try a nested list)
+
+     <div class="ul">
+         <li>Coffee</li>
+         <li>Tea
+           <ul>
+             <li>Black tea</li>
+             <li>Green tea</li>
+           </ul>
+          </li>
+         <li>Milk</li>
+      </div>
+
+
+
+      ***Add a Button***
+
+      (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+
+      <div class="buttonbox">
+         <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+      </div>
+
+
+
+
+     ***Embed YouTube Video***
+
+     <div class="video">
+       <div class="video-container">
+         <iframe src="https://www.youtube.com/embed/VIDEO ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+         <p>Add a caption.</p>
+     </div>
+
+
+
+     ***Add a Standard Image***
+
+     (Control image properties with inline width value.)
+
+     <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
+     <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+     ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
+
+     <div class="imgageblock">
+         <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
+          <p style="text-align: center"><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Photo Grid***
+
+     <div class="photogrid">
+     <div class="row">
+         <div class="column">
+             <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+     </div>
+         <p><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Parallax Window***
+
+     (To adjust window, find parallax class on style.css)
+
+     <div class="parallax"></div>
+
+
+
+     ***Add a Copyright Footer***
+
+     <div id="footer">
+       <p>Copyright Your Name, Year.</p>
+     </div>
+
+
+
+
+     ***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
+
+
+
+     Looking to publish this webtext in GitHub? Here are your next steps:
+
+     Sign in to GitHub. Create a new repository. Name it. Click “uploading an existing file,” then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
