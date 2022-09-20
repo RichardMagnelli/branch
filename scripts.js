@@ -3,6 +3,7 @@
 //}
 
 function setFirstPage(){
+  setTime();
   setFirst();
   setButton1A();
   setButton1B();
@@ -10,6 +11,7 @@ function setFirstPage(){
 }
 
 function setSecondPage(){
+  setTime();
   setSecond();
   setButton2A();
   setButton2B();
@@ -17,6 +19,7 @@ function setSecondPage(){
 }
 
 function setThirdPage(){
+  setTime();
   setThird();
   setButton3A();
   setButton3B();
@@ -24,6 +27,7 @@ function setThirdPage(){
 }
 
 function setFourthPage(){
+  setTime();
   setFourth();
   setButton4A();
   setButton4B();
@@ -31,10 +35,25 @@ function setFourthPage(){
 }
 
 function setFifthPage(){
+  setTime();
   setFifth();
   setButton5A();
   setButton5B();
   setButton5C();
+}
+
+function addZero(i) {
+  if (i < 10) {i = "0" + i}
+  return i;
+}
+
+function setTime(){
+  const d = new Date();
+  let h = addZero(d.getHours());
+  let m = addZero(d.getMinutes());
+  let s = addZero(d.getSeconds());
+  let time = h + ":" + m + ":" + s;
+  document.getElementById("publishTime").innerHTML = time;
 }
 
 function setFirst(){
