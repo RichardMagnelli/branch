@@ -2,6 +2,41 @@
 //    document.getElementById("userID").innerHTML = "New text!";
 //}
 
+function setFirstPage(){
+  setFirst();
+  setButton1A();
+  setButton1B();
+  setButton1C();
+}
+
+function setSecondPage(){
+  setSecond();
+  setButton2A();
+  setButton2B();
+  setButton2C();
+}
+
+function setThirdPage(){
+  setThird();
+  setButton3A();
+  setButton3B();
+  setButton3C();
+}
+
+function setFourthPage(){
+  setFourth();
+  setButton4A();
+  setButton4B();
+  setButton4C();
+}
+
+function setFifthPage(){
+  setFifth();
+  setButton5A();
+  setButton5B();
+  setButton5C();
+}
+
 function setFirst(){
   var randomWords = ["Hello!", "How are you today?", "Have you been working to the limit?", "What's kickin', little chicken?", "Peek-a-boo!",
   "Ahoy!!!", "I have set my magnetic departure", "I have been restless", "Are we truly unique?", "I met a stranger on a train last night",
@@ -11,6 +46,141 @@ function setFirst(){
   var randomIndex = Math.floor(Math.random() * 20);//creates random No. from 1 - 20
 
   document.getElementById("f1").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton1A(){
+  var randomWords = ["Hello!", "Yo", "How are you?", "Let's talk", "Salutations"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button1A").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton1B(){
+  var randomWords = ["Good afternoon!", "Howdy", "Who are you?", "I don't know what this is", "Please take care of me"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button1B").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton1C(){
+  var randomWords = ["Huh?!", "Do I know you?", "You're it!", "I am afraid", "I am looking for someone with a focus and a temper"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button1C").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton2A(){
+  var randomWords = ["Yes that's true", "When is that?", "I used to believe that", "It's a rainy day, sunshine girl", "Praise the Sun!"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button2A").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton2B(){
+  var randomWords = ["I don't believe you", "Why is that?", "Just tell me about it", "I'm trying to understand", "Do you read me?"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button2B").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton2C(){
+  var randomWords = ["So sayeth the wise Aluando", "That's not a real thing", "I dreamed I dream", "I don't think so", "A lot of people suffer"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button2C").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton3A(){
+  var randomWords = ["Yes", "There is a bad moon on the rise", "Automatic writing is the future", "The mind connection has been made", "We all have some innerHTML"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button3A").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton3B(){
+  var randomWords = ["No", "May all your dreams come true", "How did you know?", "Hmmm...", "Tell me about it"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button3B").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton3C(){
+  var randomWords = ["It had to be told", "We could meet up", "YEAH I love that!", "What?", "Who cares about that?"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button3C").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton4A(){
+  var randomWords = ["I don't know about that", "Can you define that?", "Maybe", "I don't know", "I don't like it"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button4A").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton4B(){
+  var randomWords = ["That's wonderful", "Get lost", "What is the truth", "No way", "It's high time"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button4B").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton4C(){
+  var randomWords = ["It is the duty of the future to be dangerous", "Yay", "It's all around us", "The path you tread is narrow", "Heck no!"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button4C").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton5A(){
+  var randomWords = ["Goodbye", "You are welcome", "I'm confused", "Is anyone so daring?", "Well, sure"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button5A").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton5B(){
+  var randomWords = ["That sure was something", "Thank you", "LOL", "Maybe it is", "That was weird"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button5B").innerHTML = randomWords[randomIndex];
+  //the problem
+}
+
+function setButton5C(){
+  var randomWords = ["Thanks so much", "Good night", "I will come back", "...", "I am a shadow"];
+
+  var randomIndex = Math.floor(Math.random() * 5);//creates random No. from 1 - 5
+
+  document.getElementById("button5C").innerHTML = randomWords[randomIndex];
   //the problem
 }
 
@@ -61,12 +231,12 @@ function setFifth(){
   document.getElementById("f5").innerHTML = randomWords[randomIndex];
   //the problem
 }
-
-function setCookie(cname,cvalue,exdays) {
+/*
+function setCookie(cname,cinnerHTML,exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     let expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    document.cookie = cname + "=" + cinnerHTML + ";" + expires + ";path=/";
   }
   
   function getCookie(cname) {
@@ -97,3 +267,4 @@ function setCookie(cname,cvalue,exdays) {
        }
     }
   }
+  */
