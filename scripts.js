@@ -111,7 +111,7 @@ function setFourth(){
 function setFifth(){
   var randomWords = ["I'm looking into the heart of darkness", "We shake our heads", "Okay, goodbye!", "Good night!", "Have a wonderful day!",
 "When you know, get back to me", "Thanks for chatting with me today", "I do not think you are real, but thank you for everything", "heh whatever", "You have convinced me",
-"please believe me again", "Goodbye!", "Aha I knew this would work out", "Thanks for talking!", "Welll it is getting late",
+"please believe me again", "Goodbye!", "Aha I knew this would work out", "Thanks for talking!", "Well it is getting late",
 "I started to fall asleep, so I have to go", "Talk to you later", "When we meet again", "We can be together anytime - I'm sure you understand", "Off to the Sea of Stars",
 "Are his motives pure?", "I believe in you!", "All I know, is I want to believe", "Off to sleep I go!", "Maybe next time..."];
 
